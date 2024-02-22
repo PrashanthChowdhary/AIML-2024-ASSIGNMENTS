@@ -1,6 +1,3 @@
-# A simple Python3 program to find
-# maximum score that
-# maximizing player can get
 import math
 
 def minimax (curDepth, nodeIndex,
@@ -30,6 +27,3 @@ treeDepth = math.log(len(scores), 2)
 
 print("The optimal value is : ", end = "")
 print(minimax(0, 0, True, scores, treeDepth))
-
-# This code is contributed
-# by rootshadow
